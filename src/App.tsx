@@ -214,7 +214,7 @@ function App() {
   const [searchMode, setSearchMode] = useState(0);
   const [loading, setLoading] = useState(false);
 
-  const searchModes = ["Google Books", "National Archive"];
+  const searchModes = ["Google Books"];
 
   const searchClicked = () => {
     setResults([]);
